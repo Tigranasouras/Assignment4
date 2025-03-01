@@ -11,6 +11,9 @@ public class Main {
         System.out.println("Decode String");
         System.out.println("Decode String: " + DecodeString.decodeString(scanner.nextLine()));
 
+
+        System.out.println("Infix to Postfix");
+        System.out.println("Postfix Expression: " + InfixToPostFix.infixToPostfix(scanner.nextLine()));
         scanner.close();
 
 
